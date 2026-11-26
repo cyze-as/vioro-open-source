@@ -9,7 +9,7 @@ body:
         Thank you for applying to **Vioro for Open Source**.
         Before submitting, please:
         1. Start a cardless 14-day **Deep Audit** trial at [app.vioro.io/signup](https://app.vioro.io/signup) on your project domain and complete domain verification.
-        2. Place one of the static **Security Monitored by Vioro** badges (or a public link to `https://vioro.io/`) on your project site or documentation footer.
+        2. Place one of the static Vioro SVG badges linking to `https://vioro.io/` on your project site or documentation footer.
 
         **Privacy note:** Do **not** include personal email addresses in this public issue. We match your Vioro account via your verified domain.
   - type: input
@@ -57,8 +57,8 @@ body:
   - type: input
     id: badge_url
     attributes:
-      label: Badge / Link Placement URL
-      description: Public page URL where the Security Monitored by Vioro badge or backlink is visible.
+      label: Badge Placement URL
+      description: Public page URL where the Vioro SVG badge is visible.
       placeholder: https://docs.example.org/
     validations:
       required: true
@@ -71,7 +71,7 @@ body:
           required: true
         - label: I started a cardless 14-day Deep Audit trial for the monitored domain above and verified domain ownership.
           required: true
-        - label: I placed the Security Monitored by Vioro SVG badge or public backlink on the monitored site (without rel="noreferrer" or nofollow).
+        - label: I placed a static Vioro SVG badge linking to https://vioro.io/ on the monitored site (without rel="noreferrer" or nofollow).
           required: true
         - label: I consent to listing our project name, logo, and public link in the Vioro Open Source showcase once approved.
           required: true
